@@ -1,0 +1,218 @@
+﻿html {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Inter', sans-serif;
+        background-color: #F9F6F2;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    header {
+        background: #142F59;
+        color: white;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 0.5rem;
+            color: #d1d5db;
+        }
+
+    nav {
+        margin-top: 1rem;
+    }
+
+        nav a {
+            color: #9ca3af;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+            nav a:hover {
+                color: white;
+            }
+
+    section {
+        padding: 2rem 1rem;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1rem;
+    }
+
+    .card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        transition: transform 0.3s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: 600;
+        }
+
+    .cta {
+        text-align: center;
+        background: #142F59;
+        color: white;
+        padding: 3rem 1rem;
+        border-radius: 10px;
+    }
+
+        .cta a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.8rem 1.5rem;
+            background: #F97316;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+
+            .cta a:hover {
+                background: #EA580C;
+            }
+
+    h2 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+    }
+
+    input, textarea {
+        padding: 0.8rem;
+        margin-bottom: 1.5rem;
+        border-radius: 8px;
+        border: 1px solid #e5e7eb;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #F97316;
+            box-shadow: 0 0 0 3px rgba(249,115,22,0.2);
+        }
+
+    textarea {
+        resize: none;
+        min-height: 120px;
+    }
+
+    button {
+        padding: 1rem;
+        background: #F97316;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+        button:hover {
+            background: #EA580C;
+            transform: scale(1.03);
+        }
+
+    .card {
+        background: white;
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+        margin-bottom: 0.5rem;
+    }
+
+    .experience-item {
+        margin-bottom: 2rem;
+        padding: 1.5rem;
+        padding-left: 1.5rem;
+        border-left: 4px solid #F97316;
+        border-radius: 8px;
+        background: white;
+        transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    }
+
+        .experience-item:hover {
+            transform: scale(1.03) translateY(-5px);
+            background: #F9F6F2; /* soft warm tint */
+            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+        }
+
+        .experience-item h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .experience-item span {
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .skill {
+        background: #1F2937;
+        color: white;
+        padding: 0.6rem 1rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+    }
+
+    footer {
+        text-align: center;
+        padding: 2rem;
+        font-size: 0.9rem;
+        color: #6b7280;
+    }
+}
