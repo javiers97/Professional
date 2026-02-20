@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sepulveda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F9F6F2;
+            color: #111827;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #142F59;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                margin-top: 1rem;
+                color: #d1d5db;
+            }
+
+        nav {
+            margin-top:1rem;
+        }
+
+            nav a {
+                color: #9ca3af;
+                margin: 0 1rem;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+                nav a:hover {
+                    color: white;
+                }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 2rem 1rem;
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+        .card {
+            background: white;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+            margin-bottom: 0.5rem;
+        }
+
+        .experience-item {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            padding-left: 1.5rem;
+            border-left: 4px solid #F97316;
+            border-radius: 8px;
+            background: white;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+        }
+
+            .experience-item:hover {
+                transform: scale(1.03) translateY(-5px);
+                background: #F9F6F2; /* soft warm tint */
+                box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+            }
+
+            .experience-item h3 {
+                font-size: 1.2rem;
+                margin-bottom: 0.3rem;
+            }
+
+            .experience-item span {
+                font-size: 0.9rem;
+                color: #6b7280;
+            }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .skill {
+            background: #1F2937;
+            color: white;
+            padding: 0.6rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        .cta {
+            text-align: center;
+            background: #142F59;
+            color: white;
+            padding: 3rem 1rem;
+            border-radius: 10px;
+        }
+
+            .cta a {
+                display: inline-block;
+                margin-top: 1rem;
+                padding: 0.8rem 1.5rem;
+                background: #F97316;
+                color: white;
+                text-decoration: none;
+                border-radius: 6px;
+                font-weight: 600;
+            }
+
+                .cta a:hover {
+                    background: #EA580C;
+                }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>More About Me</h1>
+        <p>Full Stack Developer | Senior Customer Success | Senior Data Analyst</p>
+
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="index.html#projects">Projects</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+
+        <div class="card">
+            <p>
+                5+ years of experience helping enterprise-level, NA clients unlock value and achieve measurable outcomes through technology. I specialize in building long-term strategic partnerships, aligning software solutions with business goals to drive growth, retention, and customer satisfaction.
+                <br /><br />
+                With a solid background in customer experience, stakeholder management, and cross-functional collaboration, I act as the voice of the customer while ensuring internal teams stay focused on delivering real impact. I’ve led success initiatives for Fortune 500 companies and played a key role in achieving double-digit net retention growth.
+                <br /><br />
+                As a former Division 1 athlete, I bring a strong team mindset, resilience, and leadership under pressure—skills that translate directly into how I lead client relationships and internal collaboration. I’m also passionate about emerging technologies and continuously exploring how to use them to improve efficiency and deliver better outcomes every day.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+
+        <div class="card">
+
+            <div class="experience-item">
+                <h3>Senior Customer Success Consultant | <a href="https://www.qualtrics.com/">Qualtrics</a></h3>
+                <span>2023 – Present</span>
+                <p>
+                    Customer Success Consultant for North America, including Enterprise, Corporate and FSI Customers. 
+                    <br /><br />
+                    <b>Highlights:</b>
+                   <ul>
+                       <li>BoB ACV: 6M - 7M</li>
+                       <li>RR Attainment: 100%</li>
+                   </ul>
+                    <br />
+                    <b>Led mutiple Cross-functional initiatives:</b>
+                   <ul>
+                       <li>Partner Exosystems</li>
+                       <li>Chrun Mitigation</li>
+                       <li>Gainsight Liasion</li>
+                   </ul>
+                </p>
+            </div>
+
+            <div class="experience-item">
+                <h3>Customer Success | <a href="https://www.rackspace.com/">Rackspace Technology</a></h3>
+                <span>2020 – 2023</span>
+                <p>
+                    <b>Achievements:</b>
+                    <ul>
+                        <li>Q4 2022 Revenue Attainment: 158%</li>
+                        <li>Q3 2022 Revenue Attainment: 136%</li>
+                        <li>Q2 2022 Revenue Attainment: 123%</li>
+                    </ul>
+                    <br />
+                    <b>Highlights:</b>
+                    <ul>
+                        <li>2M+ USD MRR Account Base</li>
+                        <li>Led complex conversations with internal and external cross functional teams. (Tax, Accounting, Finance, Product, Billing, Sales, etc.)</li>
+                        <li>Created and Executed various strategies to collect Past Due Balances. Used Automation skills to improve these strategies. Collecting +$20M Past Due.</li>
+                    </ul>
+                </p>
+
+            </div>
+
+            <div class="experience-item">
+                <h3>Industrial Engineer | <a href="https://www.anahuac.mx/">Universidad Anahauc</a></h3>
+                <span>2019 – 2021</span>
+                <p>
+                    <b>Activities and societies: </b>
+                    <ul>
+                        <li>University D1 Soccer team</li>
+                        <li>Genera, Business Leadership Program</li>
+                    </ul>
+                    <br />
+                    <b>Achievements:</b>
+                    <ul>
+                        <li>Excellence Award with an average of 9.89/10 (2020)</li>
+                        <li>Award for best Athlete of the University Soccer Team</li>
+                        <li>Engineering Campaign Elections Team (2019)</li>
+                        <li>University Soccer Team (2016-2020) - D1 Sports Scolarship (80%)</li>
+                        <li>Major in Lean Manufacturing</li>
+                    </ul>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+
+        <div class="card">
+            <div class="skills">
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS3</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React</div>
+                <div class="skill">Node.js</div>
+                <div class="skill">REST APIs</div>
+                <div class="skill">SQL</div>
+                <div class="skill">Git</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="cta">
+            <h2>Let’s Build Something Great</h2>
+            <p>
+                I'm currently open to freelance projects and full-time opportunities.
+            </p>
+            <a href="mailto:your@email.com">Get In Touch</a>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Javier Sepulveda | All Rights Reserved
+    </footer>
+
+</body>
+</html>
